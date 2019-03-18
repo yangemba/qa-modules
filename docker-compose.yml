@@ -1,10 +1,18 @@
-version: '3'
+version: '3.3'
 services:
-  web:
-    build: .
-    ports:
-     - "5000:5000"
+  back:
+    image: qa_eng:latest
+    network_mode: host		
     volumes:
-     - .:/code
-  redis:
-    image: "redis:alpine"
+      - .:/app/
+    ports:
+        - "80:80"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 5
+    command: python loop_register.py
+
+
