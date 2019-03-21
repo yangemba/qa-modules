@@ -1,7 +1,6 @@
 import requests
 
 
-
 url = 'http://users.bugred.ru/user/register/index.html'
 response_list = []
 for element in range(7, 9):
