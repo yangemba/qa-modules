@@ -2,7 +2,7 @@ version: '3.3'
 services:
   back:
     image: qa_eng:latest
-    network_mode: host		
+    network_mode: host
     volumes:
       - .:/app/
     ports:
