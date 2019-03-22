@@ -1,3 +1,5 @@
 JSON:{"Key": "Value"}
 EndPoint:http://users.bugred.ru/user/register/index.html
 Quantity:3
+Headers:{"Content-Type": "application/x-www-form-urlencoded"}
+ControlWord:
