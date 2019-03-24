@@ -1,5 +1,20 @@
-JSON:{"Key": "Value"}
+JSON:["name":"yanuuidL{}","email":"yansuperuuidL{}@gmail.com","password":"1","act_register_now":"Зарегистрироваться"]
 EndPoint:http://users.bugred.ru/user/register/index.html
-Quantity:3
+Quantity:0,3
 Headers:{"Content-Type": "application/x-www-form-urlencoded"}
-ControlWord:
+ControlWord:[Задачи,sdfdsf]
+
+
+
+
+
+
+
+************************************************************
+
+Не вылазать за скобки и не убритать их,если они есть.
+
+Не отсавлять запятные в конце.
+
+Все данные подаються слитно без пробелов.
+
