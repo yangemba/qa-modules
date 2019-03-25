@@ -52,7 +52,7 @@ quantity_value = quantity_value_get.split(',', 1)
 # print(quantity_value)
 
 headers_value = fourth.replace('\n', '').split('eaders:')[1]
-# print('\n' '4 - ' + headers_value)
+print('\n' '4 - ' + headers_value)
 
 control_word_statement = fives.replace('\n', '').split('ord:', 1)[1]
 # print(control_word_statement)
