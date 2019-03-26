@@ -17,9 +17,9 @@ for element in range(int(quantity_value[0]), int(quantity_value[-1])):
         k = key.replace('"', '')
         t.append(k)
     data = dict(zip(t, s))
-    json_ob = json.dumps(dict(data))
+    json_ob = json.dumps(data)
     print(data)
-    response = requests.post(json=json_ob, url=endpoint_value, headers={"Content-Type": "application/x-www-form-urlencoded"})
+    response = requests.post(data=data, url=endpoint_value, headers={"Content-Type": "application/x-www-form-urlencoded"})
 
     response_list.append(str(response.status_code))
     time.sleep(2)
