@@ -1,8 +1,8 @@
-JSON:["name":"unterp{}","email":"havanagilam{}@gmail.com","password":"1","act_register_now":"Зарегистрироваться"]
+JSON:["name":"tryright{}","email":"notwithexeprty{}@gmail.com","password":"1","act_register_now":"Зарегистрироваться"]
 EndPoint:http://users.bugred.ru/user/register/index.html
 Quantity:0,3
 Headers:{"Content-Type": "application/x-www-form-urlencoded"}
-ControlWord:[Задачи,sdfdsf]
+ControlWord:[Задачи]
 
 
 

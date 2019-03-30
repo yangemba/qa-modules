@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   back:
-    image: qa_eng:latest
+    image: qa_test:latest
     network_mode: host
     volumes:
       - .:/app/
@@ -13,6 +13,6 @@ services:
         condition: on-failure
         delay: 10s
         max_attempts: 5
-    command: python loop_register.py
+    command: python main.py
 
 

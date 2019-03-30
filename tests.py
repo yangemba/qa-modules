@@ -1,3 +1,5 @@
-from settings import *
+loop = 'li  djfjfkgvotefglf'
 
-# class JSON
+
+if 'vote' in loop:
+    print('Ok')
